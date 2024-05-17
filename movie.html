@@ -1,0 +1,198 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Movie</title>
+    <link rel="stylesheet" href="movie.css"/>
+    <script src="https://kit.fontawesome.com/17730cb0db.js" crossorigin="anonymous"></script>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@600&display=swap" rel="stylesheet">
+</head>
+<body>
+    <header class="navbar">
+        <h3><a href="#"><i class="fa-solid fa-clapperboard movieIcon"></i>CODE LAB</a></h3>
+        <ul class="item">
+            <li><a href="#home">Home</a></li>
+            <li><a href="#openmovie">Movies</a></li>
+            <li><a href="#comingmovie">Coming</a></li>
+            <li><a href="#contentbox">Content</a></li>
+        </ul>
+        <botton  class="btn">Sign in</botton>
+    </header>
+
+    <!-- imagecover -->
+
+    <section class="parent" id="home">
+        <div class="container">
+            <img src="./image/tFxjUY5b9qvFLtoDfgcEu5.jpg" class="imgCover"/>
+            <div class="inner">
+                <h4>DC UNIVERSE</h4>
+                <h1 class="capitalFont">Justice League <br>My Universe</h1>
+                <botton class="btn">Watch Now</botton>
+                <a href="#" class="playbtn"><i class="fa-solid fa-play playLogo"></i></a>
+            </div>
+        </div>
+    </section>
+    
+    <!-- movielist -->
+    
+    <section class="movies" id="openmovie">
+        <h4 class="heading">Opening This Week</h4>
+
+        <div class="movieContainer">
+            <div class="contect">
+               
+               <div class="contectBox">
+                <img src="./image/img1.jpg" class="gridMovieImg"/>
+                </div>
+                <h3 class="movieName">Shazam</h3>
+                  <span class="min">140 Min | Action</span>
+            </div>
+
+            <div class="contect">
+                
+                <div class="contectBox">
+                    <img src="./image/img2.jpg" class="gridMovieImg"/>
+                 </div>
+                 <h3 class="movieName">Batman</h3>
+                   <span class="min">140 Min | Action</span>
+             </div>
+
+             <div class="contect">
+               
+                <div class="contectBox">
+                    <img src="./image/img3.webp" class="gridMovieImg"/>
+                 </div>
+                 <h3 class="movieName">Justice League</h3>
+                   <span class="min">140 Min | Action</span>
+             </div>
+
+             <div class="contect">
+                
+                <div class="contectBox">
+                    <img src="./image/img4.webp" class="gridMovieImg"/>
+                 </div>
+                 <h3 class="movieName">flash</h3>
+                   <span class="min">140 Min | Action</span>
+             </div>
+
+             <div class="contect">
+                
+                <div class="contectBox">
+                    <img src="./image/img5.webp" class="gridMovieImg"/>
+                 </div>
+                 <h3 class="movieName">Black Adam</h3>
+                   <span class="min">140 Min | Action</span>
+             </div>
+
+             <div class="contect">
+                
+                <div class="contectBox">
+                    <img src="./image/img6.jpg" class="gridMovieImg"/>
+                 </div>
+                 <h3 class="movieName">The Suicide Squad</h3>
+                   <span class="min">140 Min | Action</span>
+             </div>
+
+             <div class="contect">
+                
+                <div class="contectBox">
+                    <img src="./image/img7.webp" class="gridMovieImg"/>
+                 </div>
+                 <h3 class="movieName">Wonder Woman</h3>
+                   <span class="min">140 Min | Action</span>
+             </div>
+
+             <div class="contect">
+                
+                <div class="contectBox">
+                    <img src="./image/img8.jpg" class="gridMovieImg"/>
+                 </div>
+                 <h3 class="movieName">Batman vs Superman</h3>
+                 <span class="min">140 Min | Action</span>
+             </div>
+        </div>
+    </section>
+    <!-- Movielist End -->
+
+    <!-- Coming Soon Start -->
+
+    <section class="movies" id="comingmovie">
+        <h4 class="heading">Coming Soon</h4>
+
+        <div class="movieContainer">
+            <div class="contect">
+               
+               <div class="contectBox">
+                <img src="./image/ani1.webp" class="gridMovieImg"/>
+                </div>
+                <h3 class="movieName">Justice League vs The Fatal Five</h3>
+                  <span class="min">140 Min | Action</span>
+            </div>
+
+            <div class="contect">
+                
+                <div class="contectBox">
+                    <img src="./image/ani2.webp" class="gridMovieImg"/>
+                 </div>
+                 <h3 class="movieName">Justice League War</h3>
+                   <span class="min">140 Min | Action</span>
+             </div>
+
+             <div class="contect">
+               
+                <div class="contectBox">
+                    <img src="./image/ani3.jpg" class="gridMovieImg"/>
+                 </div>
+                 <h3 class="movieName">Batman Under the Redhood</h3>
+                   <span class="min">140 Min | Action</span>
+             </div>
+
+             <div class="contect">
+                
+                <div class="contectBox">
+                    <img src="./image/ani4.jpg" class="gridMovieImg"/>
+                 </div>
+                 <h3 class="movieName">Injustice</h3>
+                   <span class="min">140 Min | Action</span>
+             </div>
+
+             
+        </div>
+    </section>
+
+    <!-- ComingSoonEnd -->
+
+    <!-- MessageSectionStart -->
+    <section class="sendAdmin" id="contentbox">
+        <h4 class="emailCaption">Contact Us with Email</h4>
+        <form action="#" class="emailForm">
+            <input type="email" class="email" placeholder="Enter Email...." required/>
+            <input type="submit" class="btn" value="send"/>
+        </form>
+    </section>
+    <!-- MessageSectionEnd -->
+
+    <!-- footer -->
+    <section class="footer">
+        <a href="#"><i class="fa-solid fa-clapperboard movieIcon"></i>CODE LAB</a>
+        <div class="appIcons">
+            <a href="#"><i class="fa-brands fa-facebook-f icon"></i></a>
+            <a href="#"><i class="fa-brands fa-instagram icon"></i></a>
+            <a href="#"><i class="fa-brands fa-twitter icon"></i></a>
+            <a href="#"><i class="fa-brands fa-tiktok icon"></i></a>
+        </div>
+    </section>
+    <!-- footerEnd -->
+
+    <!-- CodeLab -->
+
+    <section class="codelab">
+        <!-- <div class="motto"> -->
+            <p>CODE LAB | We learn , We share , We Code . This Laboratory is for all coders</p>
+        <!-- </div> -->
+    </section>
+</body>
+</html>
